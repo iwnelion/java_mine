@@ -6,4 +6,8 @@ public class Food {
         this.name=name;
         numberOfFoods++;
     }
+
+    static void printNumberOfFoods(){
+        System.out.println("total number of foods: "+numberOfFoods);
+    }
 }
